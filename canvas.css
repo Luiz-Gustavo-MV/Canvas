@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image: url(Paissagem.jpg);
+    background-size: cover;
+    background-repeat: none;
+    
+}
+h1{
+    color: rgba(0, 0, 0, 0.655);
+}
+
+#myCanvas{
+
+    border-radius: 10px;  /*Expessura da borda*/
+    border-color:white; opacity: 0.5;  /*Cor da borda*/
+    border-width: 5px;   /*altura da borda*/
+    color: black;
+
+}

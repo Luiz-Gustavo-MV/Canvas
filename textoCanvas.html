@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="canvas.css">
+</head>
+<body>
+    <p><h1>Canvas Retangulo</h1></p>
+    <canvas width="600" height="400" id="myCanvas" style="border: 3px solid black"></canvas>
+    <script type="text/javascript">
+        var canvas=document.getElementById("myCanvas");
+        var ctx=canvas.getContext("2d"); //consultar o canvas //var ctx (varialvel de consulta)
+        var mensagem
+        ctx.font= "50px arial";
+        ctx.fillStyle= "black";
+        ctx.fillText("eu sou as trevas",50,100);
+
+    </script>
+</body>
+</html>

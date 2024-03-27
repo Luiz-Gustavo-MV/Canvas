@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="canvas.css">
+</head>
+<body>
+    p><h1>Canvas Retangulo</h1></p>
+    <canvas width="600" height="400" id="myCanvas" style="border: 3px solid black"></canvas>
+    <script type="text/javascript">
+        var canvas=document.getElementById("myCanvas");
+        var ctx=canvas.getContext("2d"); //consultar o canvas //var ctx (varialvel de consulta)
+        ctx.beginPath();
+        ctx.fillStyle="black"; //cor da linha
+        ctx.moveTo(0,100); //começo da linha, coordenada atual   x,y
+        ctx.lineTo(700,100); //fim da linha, coordenada final     x,y
+        ctx.lineTo(700,650)
+        ctx.stroke();
+        ctx.closePath();
+        ctx.font= "25px arial";
+        ctx.fillStyle= "black";
+        ctx.fillText("eu sou as trevas",0,100);
+    </script>
+</body>
+</html>
